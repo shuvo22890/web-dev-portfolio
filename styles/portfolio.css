@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Shared CSS */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    background: #FD6E0A;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.icon-btn{
+    margin-right: 30px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bg-primary{
+    background-color: #FFF8F3;
+}
+
+.container{
+    width: 1140px;
+    margin: 75px auto;
+}
+
+.secTitle{
+    color: #181818;
+    font-size: 35px;
+}
+
+.secSubtitle{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.subTitle{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Nav Styles */
+header{
+    background: url(../img/developer.png) no-repeat;
+    background-position: 40px center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/header_bg.png) no-repeat;
+    background-position: bottom right;
+}
+
+.banner-content-wrap{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.banner-content{
+    flex-basis: 585px;
+}
+
+.banner-content h4{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.banner-content h1{
+    margin: 10px 0;
+    font-size: 85px;
+}
+
+.banner-content p{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact-btn{
+    background: none;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+.person{
+    max-width: 100%;
+    padding-right: 50px;
+}
+
+.about{
+    border-radius: 5px;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.aboutWrap{
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px;
+    width: 825px;
+    margin: 0 auto;
+}
+
+.about .infoField{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .infoField .singleInfo{}
+
+.about .infoField .singleInfo h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about .infoField .singleInfo p{
+    color: #474747;
+}
+
+
+.work{
+    text-align: center;
+}
+
+.work .workWrap{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.work > .container > p{
+    padding: 50px 150px;
+}
+
+.singleWork {
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px 0 #f2f2f2;
+}
+
+.singleWork h3{
+    margin-top: 15px;
+}
+
+.summary{
+    text-align: center;
+}
+
+.summary > h2{
+    margin-bottom: 30px;
+}
+
+.summaryWrap{
+    margin: 50px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.educationWrap .singleEducation{
+    padding: 30px 0;
+    padding-right: 100px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.educationWrap .singleEducation:last-child{
+    border: none;
+}
+
+.educationWrap .singleEducation h3{
+    margin: 10px 0;
+}
+
+.educationWrap .singleEducation h4{
+    margin-bottom: 20px;
+}
+
+.educationWrap .singleEducation p{
+    font-size: 16px;
+}
+
+footer{
+    background: #FFF8F3;
+    overflow: hidden;
+}
+
+.footerContents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContents .left{
+    padding-right: 50px;
+}
+
+.footerContents .left .icons a{
+    margin-right: 20px;
+}
+
+.footerContents .right{
+    min-width: 450px;
+}
+
+.footerContents .right form{
+    margin-top: 20px;
+}
+
+.footerContents .right input, .footerContents .right textarea {
+    display: block;
+    border: none;
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+}
