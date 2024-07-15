@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1340px){
+    .btn-primary {
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+
+    nav {
+        padding: 50px 100px;
+    }
+
+    .banner-content-wrap {
+        padding-left: 85px;
+    }
+    
+    .banner-content h4 {
+        font-size: 2.5em;
+    }
+    
+    .banner-content h1 {
+        font-size: 5em;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .subTitle {
+        font-size: 1.1em;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+
+    nav {
+        padding: 25px 50px;
+    }
+
+    .banner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-content {
+        flex-basis: auto;
+    }
+
+    .banner-content-wrap {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 3.2em;
+    }
+
+    .banner-content p {
+        font-size: 1.2em;
+    }
+
+    .person {
+        max-width: 550px;
+        padding-right: 0;
+    }
+
+    .work > .container > p {
+        padding: 15px 25px;
+    }
+
+    .work .workWrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .singleWork {
+        flex-basis: calc(50% - 20px);
+    }
+
+    .educationWrap .singleEducation {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .secTitle {
+        font-size: 30px;
+    }
+
+    nav {
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .nav-title {
+        font-size: 35px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .banner-content-wrap {
+        padding: 0 10px;
+    }
+
+    .banner-content h4 {
+        font-size: 2em;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5em;
+    }
+
+    .person {
+        max-width: 100%;
+    }
+
+    .about {
+        padding: 5px;
+    }
+
+    .about .infoField {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .about .infoField .singleInfo {
+        flex-basis: 47%;
+    }
+
+    .work > .container > p {
+        padding: 0;
+    }
+
+    .singleWork {
+        flex-basis: 100%;
+        padding: 15px
+    }
+
+    .summaryWrap{
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .footerContents {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .footerContents .left {
+        padding: 0;
+    }
+
+    .footerContents .right {
+        min-width: 100%;
+    }
+}
